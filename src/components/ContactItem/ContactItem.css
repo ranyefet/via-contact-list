@@ -1,0 +1,67 @@
+.ContactItem {
+  background-color: #fff;
+  width: 8em;
+  padding: .6em;
+  margin: .25em;
+  border-radius: .2em;
+}
+
+.ContactImage {
+  position: relative;
+  width: 130px;
+  height: 150px;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: .5em;
+}
+
+.placeholder {
+  background-color: #f2f1f2;
+  width: 130px;
+  height: 130px;
+}
+
+.ContactImageContainer {
+  width: 130px; height: 130px; overflow: hidden;
+}
+
+.ContactImage img {
+  width: 130px;
+  height: auto;
+  object-fit: contain;
+}
+
+.ContactCircle {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background-color: #40b8ea;
+  position: absolute;
+  left: .5em;
+  bottom: 0.3em;
+  z-index: 10;
+  background-size: contain;
+}
+
+.ContactTypeCitizen {
+  background-image: url(./icons/citizen.svg);
+}
+
+.ContactTypeProfessional {
+  background-image: url(./icons/professional.svg);
+}
+
+.ContactDetails {
+  font-size: .7em;
+  color: #9b9b9b;
+}
+.ContactDetails span {
+  display: block;
+  margin-bottom: .4em;
+}
+
+.ContactName {
+  font-size: 1.1em;
+  font-weight: 500;
+  color: #999;
+}
